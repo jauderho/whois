@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Golangci lint
         uses: golangci/golangci-lint-action@v2.5.2
         with:
@@ -36,7 +36,7 @@ jobs:
         with:
           go-version: ${{ matrix.go }}
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: GoTest code
         run: |
           sudo go test -race -coverprofile="coverage.txt" -covermode=atomic ./...
