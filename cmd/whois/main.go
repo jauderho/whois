@@ -35,7 +35,7 @@ import (
 
 func main() {
 	updateMessage := make(chan string)
-	go checkUpdate(updateMessage, whois.Version())
+	// go checkUpdate(updateMessage, whois.Version())
 
 	server := flag.String("h", "", "specify the whois server")
 	outJSON := flag.Bool("j", false, "output format as json")
