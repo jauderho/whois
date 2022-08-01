@@ -97,6 +97,7 @@ options:
 }
 
 // checkUpdate checks version update
+/*
 func checkUpdate(updateMessage chan string, version string) {
 	checkPoint := "https://release.likexian.com/whois/update"
 	cacheFile := fmt.Sprintf("%s/whois.update.cache", os.TempDir())
@@ -124,3 +125,4 @@ func checkUpdate(updateMessage chan string, version string) {
 
 	updateMessage <- ""
 }
+*/
