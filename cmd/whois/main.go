@@ -20,14 +20,14 @@
 package main
 
 import (
-	"context"
+	//"context"
 	"flag"
 	"fmt"
 	"os"
-	"time"
+	//"time"
 
 	"github.com/likexian/gokit/xjson"
-	"github.com/likexian/gokit/xversion"
+	//"github.com/likexian/gokit/xversion"
 	"github.com/likexian/whois"
 	whoisparser "github.com/likexian/whois-parser"
 	"golang.org/x/net/proxy"
