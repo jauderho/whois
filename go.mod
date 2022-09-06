@@ -1,6 +1,6 @@
 module github.com/likexian/whois
 
-go 1.18
+go 1.19
 
 require (
 	github.com/likexian/gokit v0.25.9
