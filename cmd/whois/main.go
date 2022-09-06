@@ -1,5 +1,5 @@
 /*
- * Copyright 2014-2021 Li Kexian
+ * Copyright 2014-2022 Li Kexian
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -117,9 +117,9 @@ func checkUpdate(updateMessage chan string, version string) {
 		if rsp.Emergency {
 			emergency = "WARNING"
 		}
-		message := fmt.Sprintf(";; %s: Your version of whois is outdate, the latest is v%s.\n",
+		message := fmt.Sprintf(";; %s: Your version of whois is outdate, the latest is %s.\n",
 			emergency, rsp.Latest)
-		message += fmt.Sprintf(";; You can update by downloading from %s", rsp.ProductURL)
+		message += fmt.Sprintf(";; You can update it by downloading from %s", rsp.ProductURL)
 		updateMessage <- message
 	}
 

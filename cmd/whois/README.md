@@ -14,12 +14,12 @@ Whois is released as a single binary file. Install whois by unzipping it and mov
 
 ### macOS
 
-- [64-bit](https://github.com/likexian/whois/releases/latest/download/whois-darwin-amd64.zip)
+- [64-bit](https://github.com/likexian/whois/releases/latest/download/whois-darwin-amd64.tar.gz)
 
 ### Linux
 
-- [64-bit](https://github.com/likexian/whois/releases/latest/download/whois-linux-amd64.zip)
-- [32-bit](https://github.com/likexian/whois/releases/latest/download/whois-linux-386.zip)
+- [64-bit](https://github.com/likexian/whois/releases/latest/download/whois-linux-amd64.tar.gz)
+- [32-bit](https://github.com/likexian/whois/releases/latest/download/whois-linux-386.tar.gz)
 
 ### Windows
 
@@ -61,7 +61,7 @@ whois -j likexian.com
 
 ## License
 
-Copyright 2014-2021 [Li Kexian](https://www.likexian.com/)
+Copyright 2014-2022 [Li Kexian](https://www.likexian.com/)
 
 Licensed under the Apache License 2.0
 
