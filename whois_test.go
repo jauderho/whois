@@ -1,5 +1,5 @@
 /*
- * Copyright 2014-2021 Li Kexian
+ * Copyright 2014-2022 Li Kexian
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -81,6 +81,8 @@ func TestWhois(t *testing.T) {
 		"as4610",
 		"as27648",
 		"as36865",
+		"172.109.217.241",
+		"144.200.46.16",
 	}
 
 	for _, v := range tests {
