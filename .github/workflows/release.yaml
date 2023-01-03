@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
       - name: Release code
-        uses: likexian/go-release-action@v0.4.0
+        uses: likexian/go-release-action@v0.5.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GOOS: ${{ matrix.goos }}
