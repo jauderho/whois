@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/likexian/gokit v0.25.10
-	github.com/likexian/whois-parser v1.24.2
+	github.com/likexian/whois-parser v1.24.4
 	golang.org/x/net v0.7.0
 )
 
