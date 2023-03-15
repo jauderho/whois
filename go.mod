@@ -1,11 +1,11 @@
 module github.com/likexian/whois
 
-go 1.19
+go 1.20
 
 require (
-	github.com/likexian/gokit v0.25.9
-	github.com/likexian/whois-parser v1.24.1
-	golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+	github.com/likexian/gokit v0.25.11
+	github.com/likexian/whois-parser v1.24.5
+	golang.org/x/net v0.8.0
 )
 
-require golang.org/x/text v0.3.7 // indirect
+require golang.org/x/text v0.8.0 // indirect
