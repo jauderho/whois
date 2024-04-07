@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/likexian/gokit v0.25.13
-	github.com/likexian/whois-parser v1.24.11
+	github.com/likexian/whois-parser v1.24.12
 	golang.org/x/net v0.24.0
 )
 
