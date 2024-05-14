@@ -28,7 +28,7 @@ jobs:
     steps:
       # Checkout the code base #
       - name: Harden Runner
-        uses: step-security/harden-runner@dd2c410b088af7c0dc8046f3ac9a8f4148492a95 # v1
+        uses: step-security/harden-runner@a4aa98b93cab29d9b1101a6143fb8bce00e2eac4 # v1
         with:
           egress-policy: block
           disable-telemetry: true
