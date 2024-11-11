@@ -20,14 +20,14 @@
 package main
 
 import (
-	"context"
+	//"context"
 	"flag"
 	"fmt"
 	"os"
-	"time"
+	//"time"
 
 	"github.com/likexian/gokit/xjson"
-	"github.com/likexian/gokit/xversion"
+	//"github.com/likexian/gokit/xversion"
 	"github.com/likexian/whois"
 	whoisparser "github.com/likexian/whois-parser"
 	"golang.org/x/net/proxy"
@@ -35,7 +35,7 @@ import (
 
 func main() {
 	updateMessage := make(chan string)
-	go checkUpdate(updateMessage, "v"+whois.Version())
+	//go checkUpdate(updateMessage, "v"+whois.Version())
 
 	server := flag.String("h", "", "specify the whois server")
 	outJSON := flag.Bool("j", false, "output format as json")
@@ -95,6 +95,7 @@ options:
 }
 
 // checkUpdate checks version update
+/*
 func checkUpdate(updateMessage chan string, version string) {
 	checkPoint := "https://release.likexian.com/whois/update"
 	cacheFile := fmt.Sprintf("%s/whois.update.cache", os.TempDir())
@@ -126,3 +127,4 @@ func checkUpdate(updateMessage chan string, version string) {
 
 	updateMessage <- ""
 }
+*/
