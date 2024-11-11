@@ -34,7 +34,7 @@ import (
 )
 
 func main() {
-	updateMessage := make(chan string)
+	//updateMessage := make(chan string)
 	//go checkUpdate(updateMessage, "v"+whois.Version())
 
 	server := flag.String("h", "", "specify the whois server")
@@ -86,10 +86,10 @@ options:
 
 	fmt.Println(text)
 
-	message := <-updateMessage
+	/*message := <-updateMessage
 	if message != "" {
 		fmt.Println(message)
-	}
+	}*/
 
 	os.Exit(0)
 }
