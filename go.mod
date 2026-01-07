@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/likexian/gokit v0.25.16
-	github.com/likexian/whois-parser v1.24.20
+	github.com/likexian/whois-parser v1.24.21
 	golang.org/x/net v0.48.0
 )
 
